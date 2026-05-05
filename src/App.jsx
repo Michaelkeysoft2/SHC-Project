@@ -7,9 +7,9 @@ import About from './pages/About';
 import Services from './pages/Services';
 import Careers from './pages/Careers';
 import Clients from './pages/Clients';
+import SearchJobs from './pages/SearchJobs';
 
 // Placeholder pages for now
-const SearchJobs = () => <div className="pt-32 pb-20 text-center text-3xl font-bold">Search Jobs Page Coming Soon</div>;
 const Dashboard = () => <div className="pt-32 pb-20 text-center text-3xl font-bold">Dashboard Coming Soon</div>;
 
 function App() {
