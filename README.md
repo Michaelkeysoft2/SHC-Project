@@ -1,16 +1,44 @@
-# React + Vite
+# SHC Advantage Services - React Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Modern, responsive healthcare staffing website built with React, Vite, and Tailwind CSS.
 
-Currently, two official plugins are available:
+## Features
+- **Modern UI/UX**: Mirroring the professional aesthetics of leading healthcare platforms.
+- **Glassmorphism Design**: High-end navigation and component styling.
+- **Responsive Layout**: Optimized for mobile, tablet, and desktop.
+- **Component-based Architecture**: Scalable and maintainable React code.
+- **Tailwind CSS v4**: Utilizing the latest styling engine for performance.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Tech Stack
+- **Framework**: React (Vite)
+- **Styling**: Tailwind CSS, PostCSS
+- **Icons**: Lucide React
+- **Routing**: React Router DOM
 
-## React Compiler
+## Development
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Prerequisites
+- Node.js (Latest LTS recommended)
 
-## Expanding the ESLint configuration
+### Setup
+1. Clone the repository
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Run the development server:
+   ```bash
+   npm run dev
+   ```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Build
+To create a production-ready bundle:
+```bash
+npm run build
+```
+
+## Deployment
+This project is configured for seamless deployment on **Vercel** and **GitHub Pages**.
+
+## License
+© 2026 SHC Advantage Services, Inc. All rights reserved.
