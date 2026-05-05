@@ -1,5 +1,5 @@
 import React from 'react';
-import { Globe, Camera, Briefcase, MessageCircle, Mail, MapPin, Phone } from 'lucide-react';
+import { Globe, Camera, Briefcase, MessageCircle, Mail, MapPin, Phone, MessageSquare } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 const Footer = () => {
@@ -17,10 +17,10 @@ const Footer = () => {
               SHC is a leading healthcare staffing agency catering to all specialty areas within the healthcare sector.
             </p>
             <div className="flex space-x-5">
-              <a href="#" className="hover:text-blue-400 transition-colors"><Globe size={20} /></a>
-              <a href="#" className="hover:text-pink-400 transition-colors"><Camera size={20} /></a>
-              <a href="#" className="hover:text-blue-300 transition-colors"><MessageCircle size={20} /></a>
-              <a href="#" className="hover:text-blue-500 transition-colors"><Briefcase size={20} /></a>
+              <a href="#" className="hover:text-blue-400 transition-colors" title="Facebook"><Globe size={20} /></a>
+              <a href="#" className="hover:text-pink-400 transition-colors" title="Instagram"><Camera size={20} /></a>
+              <a href="https://wa.me/2348039579410" target="_blank" rel="noopener noreferrer" className="hover:text-green-500 transition-colors" title="WhatsApp"><MessageSquare size={20} /></a>
+              <a href="#" className="hover:text-blue-500 transition-colors" title="LinkedIn"><Briefcase size={20} /></a>
             </div>
           </div>
 
@@ -47,11 +47,11 @@ const Footer = () => {
               </li>
               <li className="flex items-center">
                 <Phone className="mr-4 text-blue-400 flex-shrink-0" size={20} />
-                <span>+234 123 456 7890</span>
+                <a href="tel:8039579410" className="hover:text-blue-400 transition-colors">8039579410</a>
               </li>
               <li className="flex items-center">
                 <Mail className="mr-4 text-blue-400 flex-shrink-0" size={20} />
-                <span>info@shcadvantage.com</span>
+                <a href="mailto:michaelkeysoft@gmail.com" className="hover:text-white transition-colors">michaelkeysoft@gmail.com</a>
               </li>
             </ul>
           </div>
